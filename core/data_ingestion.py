@@ -7,7 +7,7 @@ Example sources: webhook payloads, periodic polling of APIs, manual CSV uploads.
 
 import json
 from datetime import datetime
-from core import utils
+import utils
 
 # Example small wrapper for file ingestion
 def ingest_json_file(path):
